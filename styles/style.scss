@@ -1,0 +1,30 @@
+$FONT: 'Montserrat', sans-serif;
+
+$Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+$Light-Grayish-Blue: hsl(234, 14%, 74%);
+$Grayish-Blue: hsl(233, 13%, 49%);
+$Dark-Grayish-Blue: hsl(232, 13%, 33%);
+$Linear-Gradient: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+
+@import "./partials/header";
+@import "./partials/script-animations";
+@import "./partials/main-content";
+@import "./partials/media";
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: $Very-Light-Grayish-Blue;
+    font-family: $FONT;
+    margin: 0;
+    background-image: url(../images/bg-bottom.svg), url(../images/bg-top.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+    
+}
+
+
+

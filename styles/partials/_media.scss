@@ -1,0 +1,32 @@
+@media (max-width: 1150px) {
+    .price {
+        font-size: 60px !important;
+    }
+}
+@media (max-width: 1000px) {
+  
+    #main_content {
+        flex-direction: column;
+    }
+    #header {
+        margin-bottom: 75px !important;
+    }
+    #main_content {
+        width: 87%;
+        margin: auto;
+        .subscription {
+            width: 100%;
+            margin-bottom: 35px !important;
+            &:hover {
+                transform: none !important;
+            }
+            .price {
+                font-size: 70px !important;
+                
+            }
+        }
+    }
+    .attribution {
+        font-size: 15px;
+    }
+}
