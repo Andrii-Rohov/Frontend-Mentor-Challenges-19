@@ -374,6 +374,7 @@
   #main_content .subscription {
     width: 100%;
     margin-bottom: 35px !important;
+    max-width: 600px;
   }
   #main_content .subscription:hover {
     -webkit-transform: none !important;
